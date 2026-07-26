@@ -1,0 +1,13 @@
+{
+  "watch": ["index.js"],
+  "ext": "js",
+  "ignore": [
+    "session/**",
+    "session/*",
+    "db.json",
+    "tmp_*",
+    "site/**",
+    "*.log"
+  ],
+  "delay": "1000"
+}

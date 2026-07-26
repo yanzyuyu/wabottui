@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Travel Keliling Indonesia</title>
+    <style>
+        body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f4f4;color:#333;}
+        header{background:#005f73;padding:20px;color:#fff;text-align:center;}
+        nav{background:#0a9396;display:flex;justify-content:center;gap:20px;padding:10px;}
+        nav a{color:#fff;text-decoration:none;font-weight:bold;}
+        .hero{background:url('https://images.unsplash.com/photo-1520909129101-8a8f1e2b7a2b?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;height:400px;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center;}
+        .hero h1{font-size:3em;margin:0;}
+        .section{padding:40px 20px;background:#fff;margin:20px auto;max-width:1200px;border-radius:8px;}
+        .services, .packages{display:flex;gap:20px;flex-wrap:wrap;}
+        .card{background:#e9ecef;padding:20px;border-radius:8px;flex:1 1 calc(33% - 40px);box-sizing:border-box;}
+        .card h3{margin-top:0;}
+        form{display:flex;flex-direction:column;gap:10px;}
+        label{font-weight:bold;}
+        input, textarea{padding:10px;border:1px solid #ccc;border-radius:4px;width:100%;box-sizing:border-box;}
+        button{padding:10px;background:#005f73;color:#fff;border:none;border-radius:4px;cursor:pointer;}
+        footer{background:#0a9396;color:#fff;text-align:center;padding:20px;}
+        @media (max-width:768px){
+            .card{flex:1 1 100%;}
+            .hero h1{font-size:2em;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jasa Travel Keliling Indonesia</h1>
+    </header>
+    <nav>
+        <a href="#hero">Beranda</a>
+        <a href="#services">Layanan</a>
+        <a href="#packages">Paket</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    <section id="hero" class="hero">
+        <h1>Eksplor Indonesia Bersama Kami</h1>
+    </section>
+    <section id="services" class="section">
+        <h2>Layanan Kami</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Perencanaan Trip</h3>
+                <p>Rencana perjalanan lengkap disesuaikan dengan keinginan Anda.</p>
+            </div>
+            <div class="card">
+                <h3>Transportasi</h3>
+                <p>Jasa sewa kendaraan, penerbangan, dan kereta api.</p>
+            </div>
+            <div class="card">
+                <h3>Penginapan</h3>
+                <p>Paket hotel dan penginapan di berbagai daerah.</p>
+            </div>
+            <div class="card">
+                <h3>Guide Turis</h3>
+                <p>Guider profesional berpengalaman di semua daerah.</p>
+            </div>
+            <div class="card">
+                <h3>Asuransi Travel</h3>
+                <p>Asuransi lengkap untuk perjalanan Anda.</p>
+            </div>
+        </div>
+    </section>
+    <section id="packages" class="section">
+        <h2>Paket Wisata</h2>
+        <div class="packages">
+            <div class="card">
+                <h3>Alam dan Pantai</h3>
+                <p>7 hari, 6 malam: Bali, Lombok, Gili.</p>
+            </div>
+            <div class="card">
+                <h3>Budaya & Sejarah</h3>
+                <p>10 hari, 9 malam: Yogyakarta, Borobudur, Jakarta, Banten.</p>
+            </div>
+            <div class="card">
+                <h3>Petualangan Alam</h3>
+                <p>12 hari, 11 malam: Kalimantan, Sumatera Barat, Papua.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <h2>Hubungi Kami</h2>
+        <form action="#" method="post">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 Jasa Travel Keliling Indonesia. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
